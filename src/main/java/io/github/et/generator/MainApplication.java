@@ -533,16 +533,16 @@ public class MainApplication extends Application {
 
         Scene scene = new Scene(root1,718, 403);
         scene.setCursor(new ImageCursor(new Image(Objects.requireNonNull(this.getClass().getResourceAsStream("/io/et/github/generator/cursor.png")))));
-        stage.getIcons().add(new Image(Objects.requireNonNull(this.getClass().getResourceAsStream("/io/et/github/generator/icons/1.ico"))));
-        stage.getIcons().add(new Image(Objects.requireNonNull(this.getClass().getResourceAsStream("/io/et/github/generator/icons/2.ico"))));
-        stage.getIcons().add(new Image(Objects.requireNonNull(this.getClass().getResourceAsStream("/io/et/github/generator/icons/3.ico"))));
-        stage.getIcons().add(new Image(Objects.requireNonNull(this.getClass().getResourceAsStream("/io/et/github/generator/icons/4.ico"))));
-        stage.getIcons().add(new Image(Objects.requireNonNull(this.getClass().getResourceAsStream("/io/et/github/generator/icons/5.ico"))));
-        stage.getIcons().add(new Image(Objects.requireNonNull(this.getClass().getResourceAsStream("/io/et/github/generator/icons/6.ico"))));
-        stage.getIcons().add(new Image(Objects.requireNonNull(this.getClass().getResourceAsStream("/io/et/github/generator/icons/7.ico"))));
-        stage.getIcons().add(new Image(Objects.requireNonNull(this.getClass().getResourceAsStream("/io/et/github/generator/icons/8.ico"))));
-        stage.getIcons().add(new Image(Objects.requireNonNull(this.getClass().getResourceAsStream("/io/et/github/generator/icons/9.ico"))));
-        stage.getIcons().add(new Image(Objects.requireNonNull(this.getClass().getResourceAsStream("/io/et/github/generator/icons/10.ico"))));
+        stage.getIcons().add(new Image(Objects.requireNonNull(this.getClass().getResourceAsStream("/io/et/github/generator/icons/1.png"))));
+        stage.getIcons().add(new Image(Objects.requireNonNull(this.getClass().getResourceAsStream("/io/et/github/generator/icons/2.png"))));
+        stage.getIcons().add(new Image(Objects.requireNonNull(this.getClass().getResourceAsStream("/io/et/github/generator/icons/3.png"))));
+        stage.getIcons().add(new Image(Objects.requireNonNull(this.getClass().getResourceAsStream("/io/et/github/generator/icons/4.png"))));
+        stage.getIcons().add(new Image(Objects.requireNonNull(this.getClass().getResourceAsStream("/io/et/github/generator/icons/5.png"))));
+        stage.getIcons().add(new Image(Objects.requireNonNull(this.getClass().getResourceAsStream("/io/et/github/generator/icons/6.png"))));
+        stage.getIcons().add(new Image(Objects.requireNonNull(this.getClass().getResourceAsStream("/io/et/github/generator/icons/7.png"))));
+        stage.getIcons().add(new Image(Objects.requireNonNull(this.getClass().getResourceAsStream("/io/et/github/generator/icons/8.png"))));
+        stage.getIcons().add(new Image(Objects.requireNonNull(this.getClass().getResourceAsStream("/io/et/github/generator/icons/9.png"))));
+        stage.getIcons().add(new Image(Objects.requireNonNull(this.getClass().getResourceAsStream("/io/et/github/generator/icons/10.png"))));
         stage.setTitle("Generator");
         stage.setScene(scene);
         stage.show();
