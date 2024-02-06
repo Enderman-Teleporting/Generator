@@ -223,14 +223,14 @@ public class MainApplication extends Application {
             }
             skipTenth.setVisible(false);
             TranslateTransition trans=new TranslateTransition();
-            trans.setDuration(new Duration(1000d-100*andThat));
+            trans.setDuration(new Duration(500d-50*andThat));
             trans.setNode(calc[andThat]);
             trans.setByX(-715 + 70 * andThat);
             calc[andThat].setVisible(true);
             trans.setOnFinished(fi->{
                 if(andThat<9) {
                     andThat += 1;
-                    trans.setDuration(new Duration(700d - 70 * andThat));
+                    trans.setDuration(new Duration(500d-50*andThat));
                     trans.setNode(calc[andThat]);
                     trans.setByX(-715 + 70 * andThat);
                     calc[andThat].setVisible(true);
@@ -482,14 +482,14 @@ public class MainApplication extends Application {
                                 }
                                 skipTenth.setVisible(false);
                                 TranslateTransition trans=new TranslateTransition();
-                                trans.setDuration(new Duration(1000d-100*andThat));
+                                trans.setDuration(new Duration(500d-50*andThat));
                                 trans.setNode(calc[andThat]);
                                 trans.setByX(-715 + 70 * andThat);
                                 calc[andThat].setVisible(true);
                                 trans.setOnFinished(fi->{
                                     if(andThat<9) {
                                         andThat += 1;
-                                        trans.setDuration(new Duration(700d - 70 * andThat));
+                                        trans.setDuration(new Duration(500d-50*andThat));
                                         trans.setNode(calc[andThat]);
                                         trans.setByX(-715 + 70 * andThat);
                                         calc[andThat].setVisible(true);
