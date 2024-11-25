@@ -315,7 +315,7 @@ public class MainApplication extends Application {
         });
         ft1.play();
         anoFt1.play();
-        once.setOnAction(action->{
+        once.setOnMouseClicked(action->{
             if (IntParser.condition(number.getText())) {
                 try {
                     new FileOutputStream(info).write(number.getText().getBytes());
@@ -401,7 +401,7 @@ public class MainApplication extends Application {
 
 
 
-        tenth.setOnAction(event ->{
+        tenth.setOnMouseClicked(event ->{
             if (IntParser.condition(number.getText())) {
                 try {
                     new FileOutputStream(info).write(number.getText().getBytes());
